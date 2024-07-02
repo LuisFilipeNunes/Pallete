@@ -1,0 +1,72 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header, form, main {
+    margin: auto;
+    width: 70%;
+    font-family: Helvetica;
+    padding: 1.1rem 1.2rem;
+}
+
+header > h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header > p {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+form {
+    background-color: rgb(19, 18, 18);
+}
+
+input {
+    margin: 10px 0;
+}
+
+input[type='submit'], input[type='file'] {
+    font-size: 1.2rem;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input[type='submit'] {
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #003333;
+    background-color: #003333;
+    color: white;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.color-box {
+    width: 100px; /* Set the width of the color block */
+    height: 250px; /* Set the height of the color block */
+    border: none; /* Remove border if you want colors to touch */
+}
+
+.color-box-value {
+    text-align: center;
+    margin-top: 5px; /* Space between the color block and the text */
+    width: 100px; /* Ensure the text block matches the width of the color block */
+}
